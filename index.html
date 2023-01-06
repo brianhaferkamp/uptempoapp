@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Uptempo Basketball Game App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="app">
+  <header class="masthead">
+    <div class="branding">
+      <picture>
+        <source media="(max-width: 400px)" srcset="https://assets.codepen.io/495197/Group+90.png"/><img src="https://assets.codepen.io/495197/Group+89.png"/>
+      </picture>
+    </div>
+    <div class="timing">
+      <p><span class="label">Qtr</span> <span class="quarter">1</span></p>
+      <div class="clock">
+        <p><span class="minutes">12</span>:<span class="seconds">00</span></p>
+      </div>
+    </div>
+  </header>
+  <div class="main-roll">
+    <div class="dice dice-1">
+      <div class="die die1"><span></span></div>
+      <div class="die die2"><span></span></div>
+      <p class="text">Result Roll</p>
+    </div>
+    <div class="dice dice-2">
+      <div class="die die3"><span></span></div>
+      <div class="die die4"><span></span></div>
+      <p class="text">Shooting / Runs</p>
+    </div>
+    <div class="dice dice-3">
+      <div class="die die5"><span></span></div>
+      <div class="die die6"><span></span></div>
+      <p class="text">Player</p>
+    </div>
+    <div class="roll">
+      <button id="roll">Roll</button>
+      <button id="next-quarter" hidden="hidden">Next Quarter</button>
+      <div class="end-game">
+        <button id="reset-game" hidden="hidden">Reset Game</button>
+        <button id="overtime" hidden="hidden">Overtime</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
