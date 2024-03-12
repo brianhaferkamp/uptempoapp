@@ -1,6 +1,6 @@
 function die1() {
   var dice = {
-    sides: 10,
+    sides: 9,
     roll: function () {
       var randomNumber = Math.floor(Math.random() * this.sides);
       return randomNumber;
@@ -15,7 +15,7 @@ function die1() {
 
 function die2() {
   var dice = {
-    sides: 10,
+    sides: 9,
     roll: function () {
       var randomNumber = Math.floor(Math.random() * this.sides);
       return randomNumber;
@@ -30,7 +30,7 @@ function die2() {
 
 function die3() {
   var dice = {
-    sides: 10,
+    sides: 9,
     roll: function () {
       var randomNumber = Math.floor(Math.random() * this.sides);
       return randomNumber;
@@ -45,7 +45,7 @@ function die3() {
 
 function die4() {
   var dice = {
-    sides: 10,
+    sides: 9,
     roll: function () {
       var randomNumber = Math.floor(Math.random() * this.sides);
       return randomNumber;
@@ -60,7 +60,7 @@ function die4() {
 
 function die5() {
   var dice = {
-    sides: 10,
+    sides: 9,
     roll: function () {
       var randomNumber = Math.floor(Math.random() * this.sides);
       return randomNumber;
@@ -75,7 +75,7 @@ function die5() {
 
 function die6() {
   var dice = {
-    sides: 10,
+    sides: 9,
     roll: function () {
       var randomNumber = Math.floor(Math.random() * this.sides);
       return randomNumber;
@@ -286,7 +286,7 @@ function overTime() {
   
   // reset clock
   $('.clock .seconds').text('00');
-  $('.clock .minutes').text("12");
+  $('.clock .minutes').text("5");
   
   // clear dice numbers
   $('.die span').text('');
